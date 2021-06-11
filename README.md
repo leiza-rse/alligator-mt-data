@@ -1,6 +1,6 @@
 # Alligator Method Test - The Data
 
-This repository contains the data to show the correct behavior of Alligator using Roman Emperors.
+This repository contains the data to show the correct behavior of Alligator using Roman Emperors (latest: Version 2).
 
 ## The Alligator File Format (\*.agt)
 
