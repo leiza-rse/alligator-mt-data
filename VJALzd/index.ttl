@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://rgzm.github.io/alligator/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://example.net/event#VJALzd> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "fruehkaiserzeitlich" ;
+    dc:identifier "VJALzd" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "-0.266" ;
+    ns1:cay "0.253" ;
+    ns1:caz "0.0072" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "150.0" ;
+    ns1:estimatedstart "1.0" ;
+    ns1:startfixed "true" ;
+    time:intervalContains <http://example.net/event#BwyQ6x>,
+        <http://example.net/event#Mo7Blr>,
+        <http://example.net/event#VAvO57>,
+        <http://example.net/event#Ydvg7G>,
+        <http://example.net/event#egQg43>,
+        <http://example.net/event#m0wQKa>,
+        <http://example.net/event#wBJxqV> .
+

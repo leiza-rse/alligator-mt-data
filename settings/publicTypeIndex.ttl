@@ -1,0 +1,127 @@
+@prefix ns1: <http://www.w3.org/ns/solid/terms#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl> a <http://www.w3.org/ns/ldp#RDFResource>,
+        ns1:ListedDocument,
+        ns1:TypeIndex ;
+    rdfs:label "Public Type Index"@en ;
+    rdfs:comment "This Document contains a list of links to other Documents, along with the type of data that is to be included in those Documents"@en ;
+    rdfs:member <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#BwyQ6x_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#BwyQ6x_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Collection>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Interval>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Interval_collection>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Mo7Blr_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Mo7Blr_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#MoBAlL_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#MoBAlL_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#O8gx8y_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#O8gx8y_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#VAvO57_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#VAvO57_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#VJALzd_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#VJALzd_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Ydvg7G_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Ydvg7G_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#egQg43_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#egQg43_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#eqp7WO_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#eqp7WO_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#event>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#event_collection>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#m0wQKa_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#m0wQKa_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#w0Z4x8_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#w0Z4x8_suniv1_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#wBJxqV_suniv0_>,
+        <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#wBJxqV_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#BwyQ6x_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//BwyQ6x_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#BwyQ6x_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//BwyQ6x_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Collection> ns1:forClass <#> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//Collection> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Interval> ns1:forClass <#> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//Interval> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Interval_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//Interval_collection> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Mo7Blr_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//Mo7Blr_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Mo7Blr_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//Mo7Blr_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#MoBAlL_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//MoBAlL_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#MoBAlL_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//MoBAlL_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#O8gx8y_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//O8gx8y_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#O8gx8y_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//O8gx8y_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#VAvO57_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//VAvO57_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#VAvO57_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//VAvO57_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#VJALzd_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//VJALzd_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#VJALzd_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//VJALzd_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Ydvg7G_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//Ydvg7G_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#Ydvg7G_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//Ydvg7G_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#egQg43_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//egQg43_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#egQg43_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//egQg43_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#eqp7WO_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//eqp7WO_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#eqp7WO_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//eqp7WO_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#event> ns1:forClass <#> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//event> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#event_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//event_collection> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#m0wQKa_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//m0wQKa_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#m0wQKa_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//m0wQKa_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#w0Z4x8_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//w0Z4x8_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#w0Z4x8_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//w0Z4x8_suniv1_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#wBJxqV_suniv0_> ns1:forClass <http://rgzm.github.io/alligator/ontology#event> ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//wBJxqV_suniv0_> .
+
+<https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl#wBJxqV_suniv1_> ns1:forClass time:Interval ;
+    ns1:instance <https://leiza-rse.github.io/alligator-mt-data//wBJxqV_suniv1_> .
+

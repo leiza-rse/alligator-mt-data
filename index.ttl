@@ -1,0 +1,633 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://rgzm.github.io/alligator/ontology#> .
+@prefix ns2: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.net/event#Interval_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Interval Instances Collection"@en ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    rdfs:member <http://example.net/event#BwyQ6x>,
+        <http://example.net/event#Mo7Blr>,
+        <http://example.net/event#MoBAlL>,
+        <http://example.net/event#O8gx8y>,
+        <http://example.net/event#VAvO57>,
+        <http://example.net/event#VJALzd>,
+        <http://example.net/event#Ydvg7G>,
+        <http://example.net/event#egQg43>,
+        <http://example.net/event#eqp7WO>,
+        <http://example.net/event#m0wQKa>,
+        <http://example.net/event#w0Z4x8>,
+        <http://example.net/event#wBJxqV> .
+
+<http://example.net/event#alligator-mt-data_rgzm.github.io_alligator_ontology_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Linkset: alligator-mt-data - alligator:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget ns1: ;
+    void:subjectsTarget <http://example.net/event#alligator-mt-data> ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_www.w3.org_2004_02_skos_core_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Linkset: alligator-mt-data - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://example.net/event#alligator-mt-data> ;
+    void:triples 2 .
+
+<http://example.net/event#alligator-mt-data_www.w3.org_2006_time_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Linkset: alligator-mt-data - time:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget time: ;
+    void:subjectsTarget <http://example.net/event#alligator-mt-data> ;
+    void:triples 12 .
+
+<http://example.net/event#event_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "event Instances Collection"@en ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    rdfs:member <http://example.net/event#BwyQ6x>,
+        <http://example.net/event#Mo7Blr>,
+        <http://example.net/event#MoBAlL>,
+        <http://example.net/event#O8gx8y>,
+        <http://example.net/event#VAvO57>,
+        <http://example.net/event#VJALzd>,
+        <http://example.net/event#Ydvg7G>,
+        <http://example.net/event#egQg43>,
+        <http://example.net/event#eqp7WO>,
+        <http://example.net/event#m0wQKa>,
+        <http://example.net/event#w0Z4x8>,
+        <http://example.net/event#wBJxqV> .
+
+<http://example.net/event#alligator-mt-data_cax> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: cax"@en ;
+    void:property ns1:cax ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_cay> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: cay"@en ;
+    void:property ns1:cay ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_caz> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: caz"@en ;
+    void:property ns1:caz ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_endfixed> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: endfixed"@en ;
+    void:property ns1:endfixed ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_estimatedend> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: estimatedend"@en ;
+    void:property ns1:estimatedend ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_estimatedstart> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: estimatedstart"@en ;
+    void:property ns1:estimatedstart ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_identifier> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: identifier"@en ;
+    void:property dc:identifier ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_intervalAfter> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: intervalAfter"@en ;
+    void:property time:intervalAfter ;
+    void:triples 8 .
+
+<http://example.net/event#alligator-mt-data_intervalBefore> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: intervalBefore"@en ;
+    void:property time:intervalBefore ;
+    void:triples 8 .
+
+<http://example.net/event#alligator-mt-data_intervalContains> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: intervalContains"@en ;
+    void:property time:intervalContains ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_intervalDuring> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: intervalDuring"@en ;
+    void:property time:intervalDuring ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_intervalEquals> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: intervalEquals"@en ;
+    void:property time:intervalEquals ;
+    void:triples 14 .
+
+<http://example.net/event#alligator-mt-data_intervalMeets> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: intervalMeets"@en ;
+    void:property time:intervalMeets ;
+    void:triples 6 .
+
+<http://example.net/event#alligator-mt-data_intervalMetBy> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: intervalMetBy"@en ;
+    void:property time:intervalMetBy ;
+    void:triples 6 .
+
+<http://example.net/event#alligator-mt-data_intervalOverlappedBy> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: intervalOverlappedBy"@en ;
+    void:property time:intervalOverlappedBy ;
+    void:triples 1 .
+
+<http://example.net/event#alligator-mt-data_intervalOverlaps> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: intervalOverlaps"@en ;
+    void:property time:intervalOverlaps ;
+    void:triples 1 .
+
+<http://example.net/event#alligator-mt-data_label> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_nfen> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: nfen"@en ;
+    void:property ns1:nfen ;
+    void:triples 1 .
+
+<http://example.net/event#alligator-mt-data_nfsn> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: nfsn"@en ;
+    void:property ns1:nfsn ;
+    void:triples 1 .
+
+<http://example.net/event#alligator-mt-data_startfixed> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: startfixed"@en ;
+    void:property ns1:startfixed ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_type> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 24 .
+
+<http://example.net/event#MoBAlL> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Usurpator" ;
+    dc:identifier "MoBAlL" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "2.3415" ;
+    ns1:cay "0.518" ;
+    ns1:caz "0.061" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "69.0" ;
+    ns1:estimatedstart "69.0" ;
+    ns1:startfixed "true" ;
+    time:intervalEquals <http://example.net/event#O8gx8y>,
+        <http://example.net/event#eqp7WO>,
+        <http://example.net/event#w0Z4x8> .
+
+<http://example.net/event#O8gx8y> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Galba" ;
+    dc:identifier "O8gx8y" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "1.355" ;
+    ns1:cay "0.35" ;
+    ns1:caz "0.058" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "69.0" ;
+    ns1:estimatedstart "69.0" ;
+    ns1:startfixed "true" ;
+    time:intervalEquals <http://example.net/event#MoBAlL>,
+        <http://example.net/event#eqp7WO>,
+        <http://example.net/event#w0Z4x8> .
+
+<http://example.net/event#eqp7WO> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Otho" ;
+    dc:identifier "eqp7WO" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "1.355" ;
+    ns1:cay "0.35" ;
+    ns1:caz "0.058" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "69.0" ;
+    ns1:estimatedstart "69.0" ;
+    ns1:startfixed "true" ;
+    time:intervalEquals <http://example.net/event#MoBAlL>,
+        <http://example.net/event#O8gx8y>,
+        <http://example.net/event#w0Z4x8> .
+
+<http://example.net/event#w0Z4x8> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Vitellius" ;
+    dc:identifier "w0Z4x8" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "2.278" ;
+    ns1:cay "0.159" ;
+    ns1:caz "0.056" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "69.0" ;
+    ns1:estimatedstart "69.0" ;
+    ns1:startfixed "true" ;
+    time:intervalEquals <http://example.net/event#MoBAlL>,
+        <http://example.net/event#O8gx8y>,
+        <http://example.net/event#eqp7WO> .
+
+<http://example.net/event#BwyQ6x> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Domitian" ;
+    dc:identifier "BwyQ6x" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "-0.143" ;
+    ns1:cay "-0.296" ;
+    ns1:caz "0.118" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "96.0" ;
+    ns1:estimatedstart "81.0" ;
+    ns1:startfixed "true" ;
+    time:intervalAfter <http://example.net/event#egQg43> ;
+    time:intervalBefore <http://example.net/event#m0wQKa> ;
+    time:intervalDuring <http://example.net/event#VJALzd>,
+        <http://example.net/event#wBJxqV> ;
+    time:intervalEquals <http://example.net/event#VAvO57> ;
+    time:intervalMeets <http://example.net/event#Mo7Blr> ;
+    time:intervalMetBy <http://example.net/event#Ydvg7G> .
+
+<http://example.net/event#Mo7Blr> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Nerva" ;
+    dc:identifier "Mo7Blr" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "-0.132" ;
+    ns1:cay "-0.224" ;
+    ns1:caz "-0.179" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "98.0" ;
+    ns1:estimatedstart "96.0" ;
+    ns1:startfixed "true" ;
+    time:intervalAfter <http://example.net/event#Ydvg7G>,
+        <http://example.net/event#egQg43> ;
+    time:intervalDuring <http://example.net/event#VJALzd>,
+        <http://example.net/event#wBJxqV> ;
+    time:intervalMeets <http://example.net/event#m0wQKa> ;
+    time:intervalMetBy <http://example.net/event#BwyQ6x>,
+        <http://example.net/event#VAvO57> .
+
+<http://example.net/event#VAvO57> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "DomitianConsulate2" ;
+    dc:identifier "VAvO57" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "-0.2646" ;
+    ns1:cay "-0.856" ;
+    ns1:caz "1.0336" ;
+    ns1:endfixed "false" ;
+    ns1:estimatedend "96.0" ;
+    ns1:estimatedstart "81.0" ;
+    ns1:nfen "Domitian" ;
+    ns1:nfsn "Domitian" ;
+    ns1:startfixed "false" ;
+    time:intervalAfter <http://example.net/event#egQg43> ;
+    time:intervalBefore <http://example.net/event#m0wQKa> ;
+    time:intervalDuring <http://example.net/event#VJALzd>,
+        <http://example.net/event#wBJxqV> ;
+    time:intervalEquals <http://example.net/event#BwyQ6x> ;
+    time:intervalMeets <http://example.net/event#Mo7Blr> ;
+    time:intervalMetBy <http://example.net/event#Ydvg7G> .
+
+<http://example.net/event#VJALzd> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "fruehkaiserzeitlich" ;
+    dc:identifier "VJALzd" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "-0.266" ;
+    ns1:cay "0.253" ;
+    ns1:caz "0.0072" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "150.0" ;
+    ns1:estimatedstart "1.0" ;
+    ns1:startfixed "true" ;
+    time:intervalContains <http://example.net/event#BwyQ6x>,
+        <http://example.net/event#Mo7Blr>,
+        <http://example.net/event#VAvO57>,
+        <http://example.net/event#Ydvg7G>,
+        <http://example.net/event#egQg43>,
+        <http://example.net/event#m0wQKa>,
+        <http://example.net/event#wBJxqV> .
+
+<http://example.net/event#Ydvg7G> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Titus" ;
+    dc:identifier "Ydvg7G" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "-0.132" ;
+    ns1:cay "-0.224" ;
+    ns1:caz "-0.179" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "81.0" ;
+    ns1:estimatedstart "79.0" ;
+    ns1:startfixed "true" ;
+    time:intervalBefore <http://example.net/event#Mo7Blr>,
+        <http://example.net/event#m0wQKa> ;
+    time:intervalDuring <http://example.net/event#VJALzd>,
+        <http://example.net/event#wBJxqV> ;
+    time:intervalMeets <http://example.net/event#BwyQ6x>,
+        <http://example.net/event#VAvO57> ;
+    time:intervalMetBy <http://example.net/event#egQg43> .
+
+<http://example.net/event#egQg43> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Vespasian" ;
+    dc:identifier "egQg43" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "0.081" ;
+    ns1:cay "-0.142" ;
+    ns1:caz "-0.145" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "79.0" ;
+    ns1:estimatedstart "69.0" ;
+    ns1:startfixed "true" ;
+    time:intervalBefore <http://example.net/event#BwyQ6x>,
+        <http://example.net/event#Mo7Blr>,
+        <http://example.net/event#VAvO57>,
+        <http://example.net/event#m0wQKa> ;
+    time:intervalDuring <http://example.net/event#VJALzd>,
+        <http://example.net/event#wBJxqV> ;
+    time:intervalMeets <http://example.net/event#Ydvg7G> .
+
+<http://example.net/event#m0wQKa> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Trajan" ;
+    dc:identifier "m0wQKa" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "-0.423" ;
+    ns1:cay "0.549" ;
+    ns1:caz "0.017" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "117.0" ;
+    ns1:estimatedstart "98.0" ;
+    ns1:startfixed "true" ;
+    time:intervalAfter <http://example.net/event#BwyQ6x>,
+        <http://example.net/event#VAvO57>,
+        <http://example.net/event#Ydvg7G>,
+        <http://example.net/event#egQg43> ;
+    time:intervalDuring <http://example.net/event#VJALzd> ;
+    time:intervalMetBy <http://example.net/event#Mo7Blr> ;
+    time:intervalOverlappedBy <http://example.net/event#wBJxqV> .
+
+<http://example.net/event#wBJxqV> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "2ndHalfFirstCentury" ;
+    dc:identifier "wBJxqV" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "0.1235" ;
+    ns1:cay "-0.4078" ;
+    ns1:caz "-0.0481" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "100.0" ;
+    ns1:estimatedstart "50.0" ;
+    ns1:startfixed "true" ;
+    time:intervalContains <http://example.net/event#BwyQ6x>,
+        <http://example.net/event#Mo7Blr>,
+        <http://example.net/event#VAvO57>,
+        <http://example.net/event#Ydvg7G>,
+        <http://example.net/event#egQg43> ;
+    time:intervalDuring <http://example.net/event#VJALzd> ;
+    time:intervalOverlaps <http://example.net/event#m0wQKa> .
+
+<http://example.net/event#alligator-mt-data> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset>,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "alligator-mt-data"@en ;
+    ns2:averageLiteralLength 5 ;
+    ns2:averageObjectIRILength 34 ;
+    ns2:averagePropertyIRILength 45 ;
+    ns2:averageSubjectIRILength 32 ;
+    ns2:datatypes 0 ;
+    ns2:distinctBlankNodes 0 ;
+    ns2:distinctIRIReferences 115 ;
+    ns2:distinctLiterals 68 ;
+    ns2:distinctRDFNodes 183 ;
+    ns2:languages 1 ;
+    ns2:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-05-01T18:32:02"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "alligator-mt-data"@en ;
+    vann:preferredNamespacePrefix "ae"^^xsd:string ;
+    vann:preferredNamespaceUri "http://example.net/event#"^^xsd:anyURI ;
+    void:classPartition <http://example.net/event#alligator-mt-data_Collection>,
+        <http://example.net/event#alligator-mt-data_Interval>,
+        <http://example.net/event#alligator-mt-data_event> ;
+    void:classes 3 ;
+    void:dataDump <https://leiza-rse.github.io/alligator-mt-data//index.ttl> ;
+    void:distinctObjects 80 ;
+    void:distinctSubjects 14 ;
+    void:entities 15 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 21 ;
+    void:propertyPartition <http://example.net/event#alligator-mt-data_cax>,
+        <http://example.net/event#alligator-mt-data_cay>,
+        <http://example.net/event#alligator-mt-data_caz>,
+        <http://example.net/event#alligator-mt-data_endfixed>,
+        <http://example.net/event#alligator-mt-data_estimatedend>,
+        <http://example.net/event#alligator-mt-data_estimatedstart>,
+        <http://example.net/event#alligator-mt-data_identifier>,
+        <http://example.net/event#alligator-mt-data_intervalAfter>,
+        <http://example.net/event#alligator-mt-data_intervalBefore>,
+        <http://example.net/event#alligator-mt-data_intervalContains>,
+        <http://example.net/event#alligator-mt-data_intervalDuring>,
+        <http://example.net/event#alligator-mt-data_intervalEquals>,
+        <http://example.net/event#alligator-mt-data_intervalMeets>,
+        <http://example.net/event#alligator-mt-data_intervalMetBy>,
+        <http://example.net/event#alligator-mt-data_intervalOverlappedBy>,
+        <http://example.net/event#alligator-mt-data_intervalOverlaps>,
+        <http://example.net/event#alligator-mt-data_label>,
+        <http://example.net/event#alligator-mt-data_nfen>,
+        <http://example.net/event#alligator-mt-data_nfsn>,
+        <http://example.net/event#alligator-mt-data_startfixed>,
+        <http://example.net/event#alligator-mt-data_type> ;
+    void:triples 244 ;
+    void:uriSpace "http://example.net/event#"^^xsd:string ;
+    void:vocabulary ns2:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        <http://purl.org/vocommons/voaf#>,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        <http://www.w3.org/ns/adms#>,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://example.net/event#alligator-mt-data_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://leiza-rse.github.io/alligator-mt-data/> ;
+    foaf:homepage <https://leiza-rse.github.io/alligator-mt-data/> ;
+    foaf:page <https://leiza-rse.github.io/alligator-mt-data//index.html> .
+

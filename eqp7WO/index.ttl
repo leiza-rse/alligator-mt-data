@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://rgzm.github.io/alligator/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://example.net/event#eqp7WO> a ns1:event,
+        time:Interval,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Otho" ;
+    dc:identifier "eqp7WO" ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    ns1:cax "1.355" ;
+    ns1:cay "0.35" ;
+    ns1:caz "0.058" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "69.0" ;
+    ns1:estimatedstart "69.0" ;
+    ns1:startfixed "true" ;
+    time:intervalEquals <http://example.net/event#MoBAlL>,
+        <http://example.net/event#O8gx8y>,
+        <http://example.net/event#w0Z4x8> .
+

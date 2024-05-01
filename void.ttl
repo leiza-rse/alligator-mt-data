@@ -1,0 +1,616 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vext: <http://ldf.fi/void-ext#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.net/event#adms_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/adms# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#alligator-mt-data_rgzm.github.io_alligator_ontology_> a void:Linkset ;
+    rdfs:label "Linkset: alligator-mt-data - alligator:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://rgzm.github.io/alligator/ontology#> ;
+    void:subjectsTarget <http://example.net/event#alligator-mt-data> ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_www.w3.org_2004_02_skos_core_> a void:Linkset ;
+    rdfs:label "Linkset: alligator-mt-data - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://example.net/event#alligator-mt-data> ;
+    void:triples 2 .
+
+<http://example.net/event#alligator-mt-data_www.w3.org_2006_time_> a void:Linkset ;
+    rdfs:label "Linkset: alligator-mt-data - time:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget time: ;
+    void:subjectsTarget <http://example.net/event#alligator-mt-data> ;
+    void:triples 12 .
+
+<http://example.net/event#brick_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#csvw_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#dc_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#dcam_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#dcat_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#dcmitype_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#dcterms_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#doap_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#foaf_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#geo_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#odrl_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#org_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#owl_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#prof_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#prov_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#qb_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#rdf_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#rdfs_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#schema_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://schema.org/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#sh_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#skos_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> ;
+    voaf:occurrences 4 .
+
+<http://example.net/event#sosa_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#ssn_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#time_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> ;
+    voaf:occurrences 24 .
+
+<http://example.net/event#vann_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#vext_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://ldf.fi/void-ext# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#voaf_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocommons/voaf# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#void_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#wgs_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#xml_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<http://example.net/event#xsd_alligator-mt-data_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in alligator-mt-data" ;
+    voaf:inDataset <http://example.net/event#alligator-mt-data> .
+
+<https://github.com/leiza-rse/alligator-mt-data> a adms:AssetRepository ;
+    rdfs:label "Repository for alligator-mt-data"@en ;
+    dcat:accessURL "https://github.com/leiza-rse/alligator-mt-data"^^xsd:anyURI ;
+    dcat:dataset <http://example.net/event#alligator-mt-data> .
+
+<http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
+
+<http://dbpedia.org/resource/OGC_GeoSPARQL> rdfs:label "OGC GeoSPARQL"@en .
+
+<http://dbpedia.org/resource/Time> rdfs:label "Time Data"@en .
+
+<http://example.net/event#alligator-mt-data_Collection> a void:Dataset ;
+    rdfs:label "Class Partition: Collection"@en ;
+    void:class skos:Collection ;
+    void:entities 2 .
+
+<http://example.net/event#alligator-mt-data_Interval> a void:Dataset ;
+    rdfs:label "Class Partition: Interval"@en ;
+    void:class time:Interval ;
+    void:entities 12 .
+
+<http://example.net/event#alligator-mt-data_cax> a void:Dataset ;
+    rdfs:label "Property Partition: cax"@en ;
+    void:property <http://rgzm.github.io/alligator/ontology#cax> ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_cay> a void:Dataset ;
+    rdfs:label "Property Partition: cay"@en ;
+    void:property <http://rgzm.github.io/alligator/ontology#cay> ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_caz> a void:Dataset ;
+    rdfs:label "Property Partition: caz"@en ;
+    void:property <http://rgzm.github.io/alligator/ontology#caz> ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_dist_ttl> a adms:AssetDistribution ;
+    rdfs:label "alligator-mt-data TTL Distribution"@en ;
+    dcat:downloadURL "https://leiza-rse.github.io/alligator-mt-data//index.ttl"^^xsd:anyURI ;
+    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
+
+<http://example.net/event#alligator-mt-data_endfixed> a void:Dataset ;
+    rdfs:label "Property Partition: endfixed"@en ;
+    void:property <http://rgzm.github.io/alligator/ontology#endfixed> ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_estimatedend> a void:Dataset ;
+    rdfs:label "Property Partition: estimatedend"@en ;
+    void:property <http://rgzm.github.io/alligator/ontology#estimatedend> ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_estimatedstart> a void:Dataset ;
+    rdfs:label "Property Partition: estimatedstart"@en ;
+    void:property <http://rgzm.github.io/alligator/ontology#estimatedstart> ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_event> a void:Dataset ;
+    rdfs:label "Class Partition: event"@en ;
+    void:class <http://rgzm.github.io/alligator/ontology#event> ;
+    void:entities 12 .
+
+<http://example.net/event#alligator-mt-data_identifier> a void:Dataset ;
+    rdfs:label "Property Partition: identifier"@en ;
+    void:property dc:identifier ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_intervalAfter> a void:Dataset ;
+    rdfs:label "Property Partition: intervalAfter"@en ;
+    void:property time:intervalAfter ;
+    void:triples 8 .
+
+<http://example.net/event#alligator-mt-data_intervalBefore> a void:Dataset ;
+    rdfs:label "Property Partition: intervalBefore"@en ;
+    void:property time:intervalBefore ;
+    void:triples 8 .
+
+<http://example.net/event#alligator-mt-data_intervalContains> a void:Dataset ;
+    rdfs:label "Property Partition: intervalContains"@en ;
+    void:property time:intervalContains ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_intervalDuring> a void:Dataset ;
+    rdfs:label "Property Partition: intervalDuring"@en ;
+    void:property time:intervalDuring ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_intervalEquals> a void:Dataset ;
+    rdfs:label "Property Partition: intervalEquals"@en ;
+    void:property time:intervalEquals ;
+    void:triples 14 .
+
+<http://example.net/event#alligator-mt-data_intervalMeets> a void:Dataset ;
+    rdfs:label "Property Partition: intervalMeets"@en ;
+    void:property time:intervalMeets ;
+    void:triples 6 .
+
+<http://example.net/event#alligator-mt-data_intervalMetBy> a void:Dataset ;
+    rdfs:label "Property Partition: intervalMetBy"@en ;
+    void:property time:intervalMetBy ;
+    void:triples 6 .
+
+<http://example.net/event#alligator-mt-data_intervalOverlappedBy> a void:Dataset ;
+    rdfs:label "Property Partition: intervalOverlappedBy"@en ;
+    void:property time:intervalOverlappedBy ;
+    void:triples 1 .
+
+<http://example.net/event#alligator-mt-data_intervalOverlaps> a void:Dataset ;
+    rdfs:label "Property Partition: intervalOverlaps"@en ;
+    void:property time:intervalOverlaps ;
+    void:triples 1 .
+
+<http://example.net/event#alligator-mt-data_label> a void:Dataset ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_nfen> a void:Dataset ;
+    rdfs:label "Property Partition: nfen"@en ;
+    void:property <http://rgzm.github.io/alligator/ontology#nfen> ;
+    void:triples 1 .
+
+<http://example.net/event#alligator-mt-data_nfsn> a void:Dataset ;
+    rdfs:label "Property Partition: nfsn"@en ;
+    void:property <http://rgzm.github.io/alligator/ontology#nfsn> ;
+    void:triples 1 .
+
+<http://example.net/event#alligator-mt-data_startfixed> a void:Dataset ;
+    rdfs:label "Property Partition: startfixed"@en ;
+    void:property <http://rgzm.github.io/alligator/ontology#startfixed> ;
+    void:triples 12 .
+
+<http://example.net/event#alligator-mt-data_type> a void:Dataset ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 24 .
+
+vext: a voaf:Vocabulary ;
+    rdfs:label "vext Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vext"^^xsd:string ;
+    vann:preferredNamespaceUri "http://ldf.fi/void-ext#"^^xsd:anyURI ;
+    voaf:usageInDataset vext:_alligator-mt-data_occ .
+
+dcam: a voaf:Vocabulary ;
+    rdfs:label "dcam Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcam"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcam/"^^xsd:anyURI ;
+    voaf:usageInDataset dcam:_alligator-mt-data_occ .
+
+dcmitype: a voaf:Vocabulary ;
+    rdfs:label "dcmitype Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcmitype"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcmitype/"^^xsd:anyURI ;
+    voaf:usageInDataset dcmitype:_alligator-mt-data_occ .
+
+dc: a voaf:Vocabulary ;
+    rdfs:label "dc Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dc"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
+    voaf:usageInDataset dc:_alligator-mt-data_occ .
+
+dcterms: a voaf:Vocabulary ;
+    rdfs:label "dcterms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    voaf:usageInDataset dcterms:_alligator-mt-data_occ .
+
+qb: a voaf:Vocabulary ;
+    rdfs:label "qb Vocabulary"@en ;
+    vann:preferredNamespacePrefix "qb"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/linked-data/cube#"^^xsd:anyURI ;
+    voaf:usageInDataset qb:_alligator-mt-data_occ .
+
+vann: a voaf:Vocabulary ;
+    rdfs:label "vann Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vann"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocab/vann/"^^xsd:anyURI ;
+    voaf:usageInDataset vann:_alligator-mt-data_occ .
+
+voaf: a voaf:Vocabulary ;
+    rdfs:label "voaf Vocabulary"@en ;
+    vann:preferredNamespacePrefix "voaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocommons/voaf#"^^xsd:anyURI ;
+    voaf:usageInDataset voaf:_alligator-mt-data_occ .
+
+void: a voaf:Vocabulary ;
+    rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en ;
+    vann:preferredNamespacePrefix "void"^^xsd:string ;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#"^^xsd:anyURI ;
+    voaf:usageInDataset void:_alligator-mt-data_occ .
+
+doap: a voaf:Vocabulary ;
+    rdfs:label "doap Vocabulary"@en ;
+    vann:preferredNamespacePrefix "doap"^^xsd:string ;
+    vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
+    voaf:usageInDataset doap:_alligator-mt-data_occ .
+
+geo: a voaf:Vocabulary ;
+    rdfs:label "The GeoSPARQL Ontology"@en ;
+    vann:preferredNamespacePrefix "geo"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
+    voaf:usageInDataset geo:_alligator-mt-data_occ .
+
+rdf: a voaf:Vocabulary ;
+    rdfs:label "The RDF Concepts Vocabulary (RDF)"@en ;
+    vann:preferredNamespacePrefix "rdf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
+    voaf:usageInDataset rdf:_alligator-mt-data_occ .
+
+rdfs: a voaf:Vocabulary ;
+    rdfs:label "The RDF Schema vocabulary (RDFS)"@en ;
+    vann:preferredNamespacePrefix "rdfs"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    voaf:usageInDataset rdfs:_alligator-mt-data_occ .
+
+xsd: a voaf:Vocabulary ;
+    rdfs:label "XML Schema"@en ;
+    vann:preferredNamespacePrefix "xsd"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ;
+    voaf:usageInDataset xsd:_alligator-mt-data_occ .
+
+owl: a voaf:Vocabulary ;
+    rdfs:label "Web Ontology Language 2 Vocabulary"@en ;
+    vann:preferredNamespacePrefix "owl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
+    voaf:usageInDataset owl:_alligator-mt-data_occ .
+
+xml: a voaf:Vocabulary ;
+    rdfs:label "xml Vocabulary"@en ;
+    vann:preferredNamespacePrefix "xml"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/XML/1998/namespace"^^xsd:anyURI ;
+    voaf:usageInDataset xml:_alligator-mt-data_occ .
+
+adms: a voaf:Vocabulary ;
+    rdfs:label "adms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "adms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/adms#"^^xsd:anyURI ;
+    voaf:usageInDataset adms:_alligator-mt-data_occ .
+
+csvw: a voaf:Vocabulary ;
+    rdfs:label "csvw Vocabulary"@en ;
+    vann:preferredNamespacePrefix "csvw"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/csvw#"^^xsd:anyURI ;
+    voaf:usageInDataset csvw:_alligator-mt-data_occ .
+
+dcat: a voaf:Vocabulary ;
+    rdfs:label "DCAT Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcat"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#"^^xsd:anyURI ;
+    voaf:usageInDataset dcat:_alligator-mt-data_occ .
+
+prof: a voaf:Vocabulary ;
+    rdfs:label "prof Vocabulary"@en ;
+    vann:preferredNamespacePrefix "prof"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dx/prof/"^^xsd:anyURI ;
+    voaf:usageInDataset prof:_alligator-mt-data_occ .
+
+odrl: a voaf:Vocabulary ;
+    rdfs:label "odrl Vocabulary"@en ;
+    vann:preferredNamespacePrefix "odrl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/odrl/2/"^^xsd:anyURI ;
+    voaf:usageInDataset odrl:_alligator-mt-data_occ .
+
+org: a voaf:Vocabulary ;
+    rdfs:label "org Vocabulary"@en ;
+    vann:preferredNamespacePrefix "org"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
+    voaf:usageInDataset org:_alligator-mt-data_occ .
+
+prov: a voaf:Vocabulary ;
+    rdfs:label "W3C Provenance Ontology"@en ;
+    vann:preferredNamespacePrefix "prov"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
+    voaf:usageInDataset prov:_alligator-mt-data_occ .
+
+sh: a voaf:Vocabulary ;
+    rdfs:label "Shapes Constraint Language (SHACL)"@en ;
+    vann:preferredNamespacePrefix "sh"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/shacl#"^^xsd:anyURI ;
+    voaf:usageInDataset sh:_alligator-mt-data_occ .
+
+sosa: a voaf:Vocabulary ;
+    rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en ;
+    vann:preferredNamespacePrefix "sosa"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/sosa/"^^xsd:anyURI ;
+    voaf:usageInDataset sosa:_alligator-mt-data_occ .
+
+ssn: a voaf:Vocabulary ;
+    rdfs:label "ssn Vocabulary"@en ;
+    vann:preferredNamespacePrefix "ssn"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/ssn/"^^xsd:anyURI ;
+    voaf:usageInDataset ssn:_alligator-mt-data_occ .
+
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
+
+foaf: a voaf:Vocabulary ;
+    rdfs:label "Friend Of A Friend Ontology"@en ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+    voaf:usageInDataset foaf:_alligator-mt-data_occ .
+
+foaf:Person rdfs:label "Person"@en .
+
+brick: a voaf:Vocabulary ;
+    rdfs:label "brick Vocabulary"@en ;
+    vann:preferredNamespacePrefix "brick"^^xsd:string ;
+    vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
+    voaf:usageInDataset brick:_alligator-mt-data_occ .
+
+schema: a voaf:Vocabulary ;
+    rdfs:label "schema Vocabulary"@en ;
+    vann:preferredNamespacePrefix "schema"^^xsd:string ;
+    vann:preferredNamespaceUri "https://schema.org/"^^xsd:anyURI ;
+    voaf:usageInDataset schema:_alligator-mt-data_occ .
+
+wgs: a voaf:Vocabulary ;
+    rdfs:label "wgs Vocabulary"@en ;
+    vann:preferredNamespacePrefix "wgs"^^xsd:string ;
+    vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
+    voaf:usageInDataset wgs:_alligator-mt-data_occ .
+
+skos: a voaf:Vocabulary ;
+    rdfs:label "skos Vocabulary"@en ;
+    vann:preferredNamespacePrefix "skos"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+    voaf:usageInDataset skos:_alligator-mt-data_occ .
+
+time: a voaf:Vocabulary ;
+    rdfs:label "time Vocabulary"@en ;
+    vann:preferredNamespacePrefix "time"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
+    voaf:usageInDataset time:_alligator-mt-data_occ .
+
+<http://example.net/event#alligator-mt-data> a void:Dataset,
+        adms:Asset ;
+    rdfs:label "alligator-mt-data"@en ;
+    vext:averageLiteralLength 5 ;
+    vext:averageObjectIRILength 34 ;
+    vext:averagePropertyIRILength 45 ;
+    vext:averageSubjectIRILength 32 ;
+    vext:datatypes 0 ;
+    vext:distinctBlankNodes 0 ;
+    vext:distinctIRIReferences 115 ;
+    vext:distinctLiterals 68 ;
+    vext:distinctRDFNodes 183 ;
+    vext:languages 1 ;
+    vext:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-05-01T18:32:02"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "alligator-mt-data"@en ;
+    vann:preferredNamespacePrefix "ae"^^xsd:string ;
+    vann:preferredNamespaceUri "http://example.net/event#"^^xsd:anyURI ;
+    void:classPartition <http://example.net/event#alligator-mt-data_Collection>,
+        <http://example.net/event#alligator-mt-data_Interval>,
+        <http://example.net/event#alligator-mt-data_event> ;
+    void:classes 3 ;
+    void:dataDump <https://leiza-rse.github.io/alligator-mt-data//index.ttl> ;
+    void:distinctObjects 80 ;
+    void:distinctSubjects 14 ;
+    void:entities 15 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 21 ;
+    void:propertyPartition <http://example.net/event#alligator-mt-data_cax>,
+        <http://example.net/event#alligator-mt-data_cay>,
+        <http://example.net/event#alligator-mt-data_caz>,
+        <http://example.net/event#alligator-mt-data_endfixed>,
+        <http://example.net/event#alligator-mt-data_estimatedend>,
+        <http://example.net/event#alligator-mt-data_estimatedstart>,
+        <http://example.net/event#alligator-mt-data_identifier>,
+        <http://example.net/event#alligator-mt-data_intervalAfter>,
+        <http://example.net/event#alligator-mt-data_intervalBefore>,
+        <http://example.net/event#alligator-mt-data_intervalContains>,
+        <http://example.net/event#alligator-mt-data_intervalDuring>,
+        <http://example.net/event#alligator-mt-data_intervalEquals>,
+        <http://example.net/event#alligator-mt-data_intervalMeets>,
+        <http://example.net/event#alligator-mt-data_intervalMetBy>,
+        <http://example.net/event#alligator-mt-data_intervalOverlappedBy>,
+        <http://example.net/event#alligator-mt-data_intervalOverlaps>,
+        <http://example.net/event#alligator-mt-data_label>,
+        <http://example.net/event#alligator-mt-data_nfen>,
+        <http://example.net/event#alligator-mt-data_nfsn>,
+        <http://example.net/event#alligator-mt-data_startfixed>,
+        <http://example.net/event#alligator-mt-data_type> ;
+    void:triples 244 ;
+    void:uriSpace "http://example.net/event#"^^xsd:string ;
+    void:vocabulary vext:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        voaf:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        adms:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://example.net/event#alligator-mt-data_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://leiza-rse.github.io/alligator-mt-data/> ;
+    foaf:homepage <https://leiza-rse.github.io/alligator-mt-data/> ;
+    foaf:page <https://leiza-rse.github.io/alligator-mt-data//index.html> .
+

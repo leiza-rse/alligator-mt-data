@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://example.net/event#Interval_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Interval Instances Collection"@en ;
+    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    rdfs:member <http://example.net/event#BwyQ6x>,
+        <http://example.net/event#Mo7Blr>,
+        <http://example.net/event#MoBAlL>,
+        <http://example.net/event#O8gx8y>,
+        <http://example.net/event#VAvO57>,
+        <http://example.net/event#VJALzd>,
+        <http://example.net/event#Ydvg7G>,
+        <http://example.net/event#egQg43>,
+        <http://example.net/event#eqp7WO>,
+        <http://example.net/event#m0wQKa>,
+        <http://example.net/event#w0Z4x8>,
+        <http://example.net/event#wBJxqV> .
+
