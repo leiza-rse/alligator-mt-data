@@ -32,4 +32,4 @@ jobs:
       logourl: https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png
       templatedir: https://github.com/archaeolink/unicorn-ontdoc-template-archaeolink-ftawm/archive/refs/tags/v1.0.zip
       ogcapifeatures: false
-      datasettitle: alligator-mt-data
+      datasettitle: Alligator Method Test
