@@ -259,10 +259,25 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
-            "http://www.w3.org/2006/time#intervalEquals": {
-              "instancecount": 3,
-              "http://rgzm.github.io/alligator/ontology#event": 3,
-              "http://www.w3.org/2006/time#Interval": 3
+            "http://www.w3.org/2006/time#intervalAfter": {
+              "instancecount": 4,
+              "http://rgzm.github.io/alligator/ontology#event": 4,
+              "http://www.w3.org/2006/time#Interval": 4
+            },
+            "http://www.w3.org/2006/time#intervalDuring": {
+              "instancecount": 1,
+              "http://rgzm.github.io/alligator/ontology#event": 1,
+              "http://www.w3.org/2006/time#Interval": 1
+            },
+            "http://www.w3.org/2006/time#intervalMetBy": {
+              "instancecount": 1,
+              "http://rgzm.github.io/alligator/ontology#event": 1,
+              "http://www.w3.org/2006/time#Interval": 1
+            },
+            "http://www.w3.org/2006/time#intervalOverlappedBy": {
+              "instancecount": 1,
+              "http://rgzm.github.io/alligator/ontology#event": 1,
+              "http://www.w3.org/2006/time#Interval": 1
             }
           },
           "from": {
@@ -270,14 +285,29 @@ var tree={
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 2
             },
-            "http://www.w3.org/2006/time#intervalEquals": {
+            "http://www.w3.org/2006/time#intervalBefore": {
               "instancecount": 0,
-              "http://rgzm.github.io/alligator/ontology#event": 3,
-              "http://www.w3.org/2006/time#Interval": 3
+              "http://rgzm.github.io/alligator/ontology#event": 4,
+              "http://www.w3.org/2006/time#Interval": 4
+            },
+            "http://www.w3.org/2006/time#intervalContains": {
+              "instancecount": 0,
+              "http://rgzm.github.io/alligator/ontology#event": 1,
+              "http://www.w3.org/2006/time#Interval": 1
+            },
+            "http://www.w3.org/2006/time#intervalMeets": {
+              "instancecount": 0,
+              "http://rgzm.github.io/alligator/ontology#event": 1,
+              "http://www.w3.org/2006/time#Interval": 1
+            },
+            "http://www.w3.org/2006/time#intervalOverlaps": {
+              "instancecount": 0,
+              "http://rgzm.github.io/alligator/ontology#event": 1,
+              "http://www.w3.org/2006/time#Interval": 1
             }
           }
         },
-        "instancecount": 15
+        "instancecount": 19
       },
       {
         "id": "http://example.net/event#event_collection",

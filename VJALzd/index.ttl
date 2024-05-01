@@ -10,7 +10,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "fruehkaiserzeitlich" ;
     dc:identifier "VJALzd" ;
-    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    void:inDataset <http://example.net/event#Alligator_Method_Test> ;
     ns1:cax "-0.266" ;
     ns1:cay "0.253" ;
     ns1:caz "0.0072" ;

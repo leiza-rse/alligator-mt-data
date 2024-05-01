@@ -10,7 +10,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Otho" ;
     dc:identifier "eqp7WO" ;
-    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    void:inDataset <http://example.net/event#Alligator_Method_Test> ;
     ns1:cax "1.355" ;
     ns1:cay "0.35" ;
     ns1:caz "0.058" ;

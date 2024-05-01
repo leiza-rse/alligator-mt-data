@@ -10,7 +10,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Vitellius" ;
     dc:identifier "w0Z4x8" ;
-    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    void:inDataset <http://example.net/event#Alligator_Method_Test> ;
     ns1:cax "2.278" ;
     ns1:cay "0.159" ;
     ns1:caz "0.056" ;

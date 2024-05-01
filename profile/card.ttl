@@ -6,7 +6,4 @@
     foaf:primaryTopic <https://leiza-rse.github.io/alligator-mt-data//profile/card#> .
 
 <https://leiza-rse.github.io/alligator-mt-data//profile/card#> a foaf:Person ;
-    ns2:storage <https://leiza-rse.github.io/alligator-mt-data/alligator-mt-data> ;
-    ns1:privateTypeIndex <https://leiza-rse.github.io/alligator-mt-data//settings/privateTypeIndex.ttl> ;
-    ns1:publicTypeIndex <https://leiza-rse.github.io/alligator-mt-data//settings/publicTypeIndex.ttl> .
-
+    ns2:storage 

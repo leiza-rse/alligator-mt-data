@@ -1,0 +1,133 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.net/event#Alligator_Method_Test> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Alligator_Method_Test"@en ;
+    ns1:averageLiteralLength 5 ;
+    ns1:averageObjectIRILength 34 ;
+    ns1:averagePropertyIRILength 45 ;
+    ns1:averageSubjectIRILength 32 ;
+    ns1:datatypes 0 ;
+    ns1:distinctBlankNodes 0 ;
+    ns1:distinctIRIReferences 115 ;
+    ns1:distinctLiterals 68 ;
+    ns1:distinctRDFNodes 183 ;
+    ns1:languages 1 ;
+    ns1:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-05-01T19:51:27"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "Alligator_Method_Test"@en ;
+    vann:preferredNamespacePrefix "ae"^^xsd:string ;
+    vann:preferredNamespaceUri "http://example.net/event#"^^xsd:anyURI ;
+    void:classPartition <http://example.net/event#Alligator_Method_Test_Collection>,
+        <http://example.net/event#Alligator_Method_Test_Interval>,
+        <http://example.net/event#Alligator_Method_Test_event> ;
+    void:classes 3 ;
+    void:dataDump <https://leiza-rse.github.io/alligator-mt-data//index.ttl> ;
+    void:distinctObjects 80 ;
+    void:distinctSubjects 14 ;
+    void:entities 15 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 21 ;
+    void:propertyPartition <http://example.net/event#Alligator_Method_Test_cax>,
+        <http://example.net/event#Alligator_Method_Test_cay>,
+        <http://example.net/event#Alligator_Method_Test_caz>,
+        <http://example.net/event#Alligator_Method_Test_endfixed>,
+        <http://example.net/event#Alligator_Method_Test_estimatedend>,
+        <http://example.net/event#Alligator_Method_Test_estimatedstart>,
+        <http://example.net/event#Alligator_Method_Test_identifier>,
+        <http://example.net/event#Alligator_Method_Test_intervalAfter>,
+        <http://example.net/event#Alligator_Method_Test_intervalBefore>,
+        <http://example.net/event#Alligator_Method_Test_intervalContains>,
+        <http://example.net/event#Alligator_Method_Test_intervalDuring>,
+        <http://example.net/event#Alligator_Method_Test_intervalEquals>,
+        <http://example.net/event#Alligator_Method_Test_intervalMeets>,
+        <http://example.net/event#Alligator_Method_Test_intervalMetBy>,
+        <http://example.net/event#Alligator_Method_Test_intervalOverlappedBy>,
+        <http://example.net/event#Alligator_Method_Test_intervalOverlaps>,
+        <http://example.net/event#Alligator_Method_Test_label>,
+        <http://example.net/event#Alligator_Method_Test_nfen>,
+        <http://example.net/event#Alligator_Method_Test_nfsn>,
+        <http://example.net/event#Alligator_Method_Test_startfixed>,
+        <http://example.net/event#Alligator_Method_Test_type> ;
+    void:triples 244 ;
+    void:uriSpace "http://example.net/event#"^^xsd:string ;
+    void:vocabulary ns1:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        <http://purl.org/vocommons/voaf#>,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        <http://www.w3.org/ns/adms#>,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://example.net/event#Alligator_Method_Test_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://leiza-rse.github.io/alligator-mt-data/> ;
+    foaf:homepage <https://leiza-rse.github.io/alligator-mt-data/> ;
+    foaf:page <https://leiza-rse.github.io/alligator-mt-data//index.html> .
+

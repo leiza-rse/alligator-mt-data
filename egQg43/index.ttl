@@ -10,7 +10,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Vespasian" ;
     dc:identifier "egQg43" ;
-    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    void:inDataset <http://example.net/event#Alligator_Method_Test> ;
     ns1:cax "0.081" ;
     ns1:cay "-0.142" ;
     ns1:caz "-0.145" ;

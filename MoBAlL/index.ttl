@@ -10,7 +10,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Usurpator" ;
     dc:identifier "MoBAlL" ;
-    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    void:inDataset <http://example.net/event#Alligator_Method_Test> ;
     ns1:cax "2.3415" ;
     ns1:cay "0.518" ;
     ns1:caz "0.061" ;

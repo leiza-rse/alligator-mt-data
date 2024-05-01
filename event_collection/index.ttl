@@ -6,7 +6,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "event Instances Collection"@en ;
-    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    void:inDataset <http://example.net/event#Alligator_Method_Test> ;
     rdfs:member <http://example.net/event#BwyQ6x>,
         <http://example.net/event#Mo7Blr>,
         <http://example.net/event#MoBAlL>,

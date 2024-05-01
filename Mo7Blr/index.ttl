@@ -10,7 +10,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Nerva" ;
     dc:identifier "Mo7Blr" ;
-    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    void:inDataset <http://example.net/event#Alligator_Method_Test> ;
     ns1:cax "-0.132" ;
     ns1:cay "-0.224" ;
     ns1:caz "-0.179" ;

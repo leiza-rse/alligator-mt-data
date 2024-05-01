@@ -10,7 +10,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Trajan" ;
     dc:identifier "m0wQKa" ;
-    void:inDataset <http://example.net/event#alligator-mt-data> ;
+    void:inDataset <http://example.net/event#Alligator_Method_Test> ;
     ns1:cax "-0.423" ;
     ns1:cay "0.549" ;
     ns1:caz "0.017" ;
